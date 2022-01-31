@@ -17,8 +17,6 @@ This project was created for Week 13 - ORM of the Trilogy/Southern Methodist Uni
   Step 1.
   Clone the repo and CD into your local copy
   ``` git clone https://github.com/ashleysalinas/ecommerceBackend.git
-  ```
-  ```
   cd ecommerceBackend
   ```
   
