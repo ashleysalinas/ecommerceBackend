@@ -23,6 +23,6 @@ Category.init(
     underscored: true,
     modelName: 'Category'
     }
-)
+);
 
 module.exports = Category;

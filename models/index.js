@@ -5,11 +5,11 @@ const Tag = require('./Tag')
 
 Product.belongsTo(Category, {
     foreignKey: 'category_id'
-})
+});
 
 Category.hasMany(Product, {
     foreignKey: 'category_id'
-})
+});
 
 Product.belongsToMany(Tag, {
     through: ProductTag,
@@ -23,9 +23,9 @@ Product.belongsToMany(Tag, {
   });
   
 
-module.exports= {
+module.exports = {
     Product,
     Category,
     Tag,
     ProductTag
-}
+};

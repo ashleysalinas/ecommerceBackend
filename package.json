@@ -1,0 +1,31 @@
+{
+  "name": "ecommercebackend",
+  "version": "1.0.0",
+  "description": "week 13 hw",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleysalinas/ecommerceBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^14.1.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^5.22.4",
+    "sequelize-cli": "^6.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/ashleysalinas/ecommerceBackend/issues"
+  },
+  "homepage": "https://github.com/ashleysalinas/ecommerceBackend#readme"
+}
