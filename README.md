@@ -12,18 +12,26 @@ This project was created for Week 13 - ORM of the Trilogy/Southern Methodist Uni
 
 ## Getting Started
   ### Prerequisites
-  You must have MySQL and Node (as well as the Sequelize, Express, and dotenv packages) installed.
+  You must have MySQL, Insomnia, and Node (as well as the Sequelize, Express, and dotenv packages) installed.
   
   Step 1.
   Clone the repo and CD into your local copy
   ``` git clone https://github.com/ashleysalinas/ecommerceBackend.git ```
+  
   ``` cd ecommerceBackend ```
   
-  ## Usage
- Use this app to keep track of your expenses.
- 
- ## Contributing
- Shout out to the team at Trilogy for providing the intial files for developemnt.
+  Step 2. Add a .env file with your process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD for the config file.
+  Step 3. Run the seeds into MySQL
+  
+  ```
+  node seeds/index.js
+  ```
+  
+  Step 4. Start the server and test routes in Insomnia.
+  ```
+  node server.js
+  ```
+
  
  ## License
  Distributed under the MIT Licencse.
